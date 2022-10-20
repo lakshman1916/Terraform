@@ -1,0 +1,1 @@
+Create 2 VMs and 2 RGs using terraform via jenkins
