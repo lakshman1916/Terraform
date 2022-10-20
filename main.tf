@@ -46,7 +46,7 @@ resource "azurerm_public_ip" "PublicIP" {
 }
 
 resource "azurerm_windows_virtual_machine" "VM" {
-  count = "2"
+  name = "test-TF" 
   resource_group_name = azurerm_resource_group.RG.name
   location            = azurerm_resource_group.RG.location
   size                = "Standard_F2"
